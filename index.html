@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combat Fitness Garage - Lucknow</title>
+<meta name="description" content="Combat Fitness Garage - MMA, Boxing & Strength. Train where fighters are made.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/jpeg" href="media/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= PRELOADER / BELL SEQUENCE ================= -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <span class="pl-word" id="plWord">SECONDS OUT</span>
+    <span class="pl-count" id="plCount">3</span>
+  </div>
+</div>
+
+<!-- ================= ROUND TIMER / SCROLL PROGRESS ================= -->
+<div class="round-timer" aria-hidden="true">
+  <div class="round-timer-fill" id="roundTimerFill"></div>
+</div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="siteNav">
+  <a href="#top" class="nav-brand">
+    <span class="nav-brand-mark"><span class="mark-c">C</span><span class="mark-fg">FG</span></span>
+    <span class="nav-brand-full">COMBAT&nbsp;FITNESS&nbsp;GARAGE</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#garage"><span class="nl-num">01</span>The Garage</a>
+    <a href="#wall"><span class="nl-num">02</span>The Wall</a>
+    <a href="#grind"><span class="nl-num">03</span>The Grind</a>
+    <a href="#arsenal"><span class="nl-num">04</span>The Arsenal</a>
+    <a href="#weighin"><span class="nl-num">05</span>Weigh In</a>
+  </nav>
+  <a href="#weighin" class="nav-cta">Book a Demo</a>
+  <button class="nav-burger" id="navBurger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <div class="hero-stripe s1"></div>
+    <div class="hero-stripe s2"></div>
+    <div class="hero-grain"></div>
+  </div>
+
+  <div class="hero-tape hero-tape-top">
+    <span>NO EXCUSES • NO SHORTCUTS • NO EXCUSES • NO SHORTCUTS • NO EXCUSES • NO SHORTCUTS • </span>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal" data-delay="0">Lucknow&nbsp;·&nbsp;Est.&nbsp;2019&nbsp;·&nbsp;Combat&nbsp;Fitness&nbsp;Garage</p>
+    <h1 class="hero-title">
+      <span class="reveal" data-delay="1">TRAIN LIKE</span>
+      <span class="reveal hero-title-accent" data-delay="2">THE BELL</span>
+      <span class="reveal" data-delay="3">JUST RANG.</span>
+    </h1>
+    <p class="hero-sub reveal" data-delay="4">A garage-built gym for people who'd rather earn a bruise than skip a session. MMA, boxing and strength - coached by fighters who've actually stood in the ring.</p>
+
+    <div class="hero-actions reveal" data-delay="5">
+      <a href="#weighin" class="btn btn-primary">
+        <span>Book a Free Demo</span>
+      </a>
+      <a href="#arsenal" class="btn btn-ghost">
+        <span>See Packages</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Tale of the tape -->
+  <div class="tape-card reveal" data-delay="6">
+    <div class="tape-row">
+      <div class="tape-stat">
+        <span class="tape-num" data-count="6">0</span>
+        <span class="tape-label">Years Open</span>
+      </div>
+      <div class="tape-div"></div>
+      <div class="tape-stat">
+        <span class="tape-num" data-count="47">0</span>
+        <span class="tape-label">Medals Won</span>
+      </div>
+      <div class="tape-div"></div>
+      <div class="tape-stat">
+        <span class="tape-num" data-count="380">0</span>
+        <span class="tape-label">Fighters Trained</span>
+      </div>
+      <div class="tape-div"></div>
+      <div class="tape-stat">
+        <span class="tape-num" data-count="12">0</span>
+        <span class="tape-label">State Champions</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
+</section>
+
+<!-- ================= ROUND 01 - THE GARAGE (ABOUT) ================= -->
+<section class="round round-garage" id="garage">
+  <div class="round-head">
+    <span class="round-tag mono">ROUND 01</span>
+    <h2 class="round-title">The Garage</h2>
+  </div>
+
+  <div class="garage-grid">
+    <div class="garage-copy">
+      <p class="garage-lede reveal-on-scroll">CFG didn't start in a glass-front studio. It started in an actual garage - heavy bags hung from ceiling joists, a mismatched set of dumbbells, and a coach who refused to make it comfortable.</p>
+      <p class="reveal-on-scroll">That's still the standard. We kept the name, the concrete floor, and the philosophy: fitness that's tested under pressure, not performed in a mirror. Every class ends the way a round does - when the work is actually done.</p>
+
+      <div class="garage-pillars">
+        <div class="pillar reveal-on-scroll">
+          <span class="pillar-mark mono">/01</span>
+          <h3>Fighter-first coaching</h3>
+          <p>Every coach on the mat has competed. They teach what held up when it mattered.</p>
+        </div>
+        <div class="pillar reveal-on-scroll">
+          <span class="pillar-mark mono">/02</span>
+          <h3>Small classes, real correction</h3>
+          <p>Capped headcounts so your footwork gets fixed, not ignored.</p>
+        </div>
+        <div class="pillar reveal-on-scroll">
+          <span class="pillar-mark mono">/03</span>
+          <h3>Built for progress, not vibes</h3>
+          <p>Sparring logs, strength benchmarks, and a visible path from white-flag to ring-ready.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="garage-visual reveal-on-scroll">
+      <div class="visual-frame">
+        <div class="visual-bagline">
+          <div class="bag"></div><div class="bag"></div><div class="bag"></div>
+        </div>
+        <!-- Slideshow — cycles through Media/Garage Floor *.jpg; the bags peek
+             through during each crossfade. Add more <img> tags to extend it. -->
+        <div class="visual-slideshow" id="garageSlideshow" aria-hidden="true">
+          <img class="visual-slide is-active" src="Media/Gym.jpg" alt="">
+          <img class="visual-slide" src="Media/Gym3.jpg" alt="">
+		  <img class="visual-slide" src="Media/Gym2.jpg" alt="">
+        </div>
+        <div class="visual-tape-strip mono">CFG · GARAGE FLOOR · Lucknow</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ROUND 02 - THE WALL (ACHIEVEMENTS) ================= -->
+<section class="round round-wall" id="wall">
+  <div class="round-head round-head-light">
+    <span class="round-tag mono">ROUND 02</span>
+    <h2 class="round-title">The Wall</h2>
+    <p class="round-desc">Every plate on this wall was earned by someone who trained here first. A running record, not a highlight reel.</p>
+  </div>
+
+  <div class="wall-track-wrap">
+    <div class="wall-track" id="wallTrack">
+
+      <article class="card-record card-record-intl reveal-on-scroll">
+        <span class="record-intl-badge mono">INTERNATIONAL AMATEUR MMA</span><div class="record-bg"><img class="lightbox-img" src="Media/International-bronze1.jpg" alt="" loading="lazy"></div>
+        <h3>     </h3>
+		<h3>     </h3>
+		<h3>     </h3>
+		<span class="record-year mono">2026</span>
+		<p>CFG's first fighter to compete on an international stage.</p>
+      </article>
+
+      <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/International-bronze.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2025</span>
+        <h3>National MMA Championship - Gold</h3>
+        <p>Third national title for the amateur female mma Championship.</p>
+      </article>
+	  
+	  <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/state-boxing-gold.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2025</span>
+        <h3>State Boxing Championship - Gold</h3>
+        <p>Welterweight division. Third title for the CFG boxing squad in four years.</p>
+      </article>
+		
+		<article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/State-gold.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>National Heavyweight MMA- Gold</h3>
+        <p>Two golds, one silver across light-heavyweight brackets.</p>
+      </article>
+	
+      <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/Inter-gym-3.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>Regional Heavyweight MMA- Gold</h3>
+        <p>Two golds, one silver across light-heavyweight brackets.</p>
+      </article>
+
+      <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/Inter-gym.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>Regional Lightweight MMA- Gold</h3>
+        <p>Gold in Regional Lightweight MMA Championship.</p>
+      </article>
+
+      <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/Inter-gym-2.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>Inter-Club Boxing League - Champions</h3>
+        <p>CFG's team took the league title across a 6-club roster.</p>
+      </article>
+	  
+	  <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/inter-club-mma.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>Inter-Club Boxing League - Champions</h3>
+        <p>CFG's team took the league title across a 6-club roster.</p>
+      </article>
+
+      <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/State Grappling Invitational.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>State Grappling Invitational - Gold</h3>
+        <p>Two CFG members topped the podium in the no-gi division.</p>
+      </article>
+
+      <article class="card-record reveal-on-scroll">
+        <div class="record-bg"><img class="lightbox-img" src="Media/sunrise-batch.jpg" alt="" loading="lazy"></div>
+        <span class="record-year mono">2026</span>
+        <h3>City Strength Meet - Best Gym Team</h3>
+      </article>
+
+    </div>
+    <div class="wall-fade wall-fade-l" aria-hidden="true"></div>
+    <div class="wall-fade wall-fade-r" aria-hidden="true"></div>
+  </div>
+  <p class="wall-hint mono">← drag to see the full record →</p>
+</section>
+
+<!-- ================= ROUND 03 - THE GRIND (TRAINING SNAPS / HIGHLIGHTS) ================= -->
+<section class="round round-grind" id="grind">
+  <div class="round-head">
+    <span class="round-tag mono">ROUND 03</span>
+    <h2 class="round-title">The Grind</h2>
+    <p class="round-desc">The Wall shows the podium. This is everything that happens before it - sparring rounds, sunrise conditioning, first classes, and the sessions nobody was filming for a medal.</p>
+  </div>
+
+  <div class="grind-top-row">
+    <div class="grind-filters" role="tablist" aria-label="Filter highlights">
+      <button type="button" class="grind-filter is-active" data-filter="all">All</button>
+      <button type="button" class="grind-filter" data-filter="photo">Photos</button>
+      <button type="button" class="grind-filter" data-filter="video">Clips</button>
+    </div>
+    <a href="gallery.html" class="btn btn-ghost btn-gallery">
+      <span>View Full Gallery →</span>
+    </a>
+  </div>
+
+  <div class="grind-track-wrap">
+    <div class="grind-track" id="grindTrack">
+		
+	<figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-4.jpg" alt="Cooldown & mobility work" loading="lazy">
+        </div>
+        <figcaption>Cooldown &amp; mobility work ft Coach Manoj</figcaption>
+      </figure>	
+	
+	<figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-7.jpg" alt="First class nerves, week one" loading="lazy">
+        </div>
+        <figcaption>Grind on a Global Stage ft Pooja Gautam</figcaption>
+      </figure>
+	  
+      <figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-8.jpg" alt="Sunrise conditioning batch" loading="lazy">
+        </div>
+        <figcaption>Grind on National Stage ft Pooja Gautam</figcaption>
+      </figure>
+
+      <figure class="grind-tile has-video reveal-on-scroll" data-type="video">
+        <div class="grind-media">
+          <video controls preload="metadata" playsinline poster="Media/sparring-snap.jpg">
+            <source src="Media/sparring.mp4" type="video/mp4">
+            Your browser doesn't support embedded video.
+          </video>
+        </div>
+        <figcaption>Live sparring — Saturday</figcaption>
+      </figure>
+	  
+	  <figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-12.jpg" alt="First class nerves, week one" loading="lazy">
+        </div>
+        <figcaption>Strength Floor, Heavy Day</figcaption>
+      </figure>
+	  
+	  <figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-10.jpg" alt="First class nerves, week one" loading="lazy">
+        </div>
+        <figcaption>Padding Grind with Coach Rahul</figcaption>
+      </figure>
+	  
+	  <figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-1.jpg" alt="First class nerves, week one" loading="lazy">
+        </div>
+        <figcaption>First class nerves, week one</figcaption>
+      </figure>
+
+      <figure class="grind-tile has-video reveal-on-scroll" data-type="video">
+        <div class="grind-media">
+          <video controls preload="metadata" playsinline poster="Media/sparring-2-snap.jpg">
+            <source src="Media/sparring-2.mp4" type="video/mp4">
+            Your browser doesn't support embedded video.
+          </video>
+        </div>
+        <figcaption>Warm up &amp; Sparring</figcaption>
+      </figure>
+
+      <figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-5.jpg" alt="Hand-wrap ritual, pre-session" loading="lazy">
+        </div>
+        <figcaption>Inter-club MMA competition - kids edition</figcaption>
+      </figure>
+
+      <figure class="grind-tile reveal-on-scroll" data-type="photo">
+        <div class="grind-media">
+          <img class="lightbox-img" src="Media/grind-3.jpg" alt="Strength floor, heavy day" loading="lazy">
+        </div>
+        <figcaption>Strength floor, heavy day</figcaption>
+      </figure>
+
+      <figure class="grind-tile has-video reveal-on-scroll" data-type="video">
+        <div class="grind-media">
+          <video controls preload="metadata" playsinline poster="Media/vid-snap.jpg">
+            <source src="Media/National-boxing.mp4" type="video/mp4">
+            Your browser doesn't support embedded video.
+          </video>
+        </div>
+        <figcaption>National - CFG's Gold in Boxing</figcaption>
+      </figure>
+
+    </div>
+    <div class="grind-fade grind-fade-l" aria-hidden="true"></div>
+    <div class="grind-fade grind-fade-r" aria-hidden="true"></div>
+  </div>
+  <p class="grind-note mono">← drag to browse →</p>
+</section>
+
+<!-- ================= ROUND 04 - THE ARSENAL (PACKAGES) ================= -->
+<section class="round round-arsenal" id="arsenal">
+  <div class="round-head">
+    <span class="round-tag mono">ROUND 04</span>
+    <h2 class="round-title">The Arsenal</h2>
+    <p class="round-desc">Six ways to train under one roof. Every package includes full access to open mat hours and one free technique review a month.</p>
+  </div>
+
+  <div class="pkg-grid">
+
+    <!-- GYM ONLY -->
+    <article class="pkg-card reveal-on-scroll" data-pkg="Only Gym">
+      <div class="pkg-top">
+        <span class="pkg-class mono">CLASS / 01</span>
+        <h3>Only Gym</h3>
+        <p class="pkg-desc">Strength floor, conditioning circuits, open mat. No martial arts classes included.</p>
+      </div>
+      <ul class="pkg-list">
+        <li>Full strength &amp; conditioning floor</li>
+        <li>Unlimited open-gym hours</li>
+        <li>Monthly progress check-in</li>
+      </ul>
+      <div class="pkg-plans">
+        <label class="plan-opt">
+          <input type="radio" name="plan-onlygym" value="Only Gym - 1 Month - ₹1500" data-amount="1500" checked>
+          <span class="plan-radio"></span>
+          <span class="plan-label">1 Month</span>
+          <span class="plan-price mono">₹1,500</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-onlygym" value="Only Gym - 3 Months - ₹4000" data-amount="4000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">3 Months</span>
+          <span class="plan-price mono">₹4,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-onlygym" value="Only Gym - 6 Months - ₹7500" data-amount="7500">
+          <span class="plan-radio"></span>
+          <span class="plan-label">6 Months</span>
+          <span class="plan-price mono">₹7,500</span>
+        </label>
+      </div>
+      <button class="btn btn-pkg" data-select-pkg="Only Gym">Choose Only Gym</button>
+    </article>
+
+    <!-- MMA -->
+    <article class="pkg-card pkg-featured reveal-on-scroll" data-pkg="MMA">
+      <span class="pkg-badge mono">MOST BOOKED</span>
+      <div class="pkg-top">
+        <span class="pkg-class mono">CLASS / 02</span>
+        <h3>MMA</h3>
+        <p class="pkg-desc">Striking, grappling and cage IQ. Includes full gym floor access.</p>
+      </div>
+      <ul class="pkg-list">
+        <li>Striking, wrestling &amp; ground technique</li>
+        <li>Live sparring sessions (supervised)</li>
+        <li>Full strength &amp; conditioning access</li>
+      </ul>
+      <div class="pkg-plans">
+        <label class="plan-opt">
+          <input type="radio" name="plan-mma" value="MMA - 1 Month - ₹2000" data-amount="2000" checked>
+          <span class="plan-radio"></span>
+          <span class="plan-label">1 Month</span>
+          <span class="plan-price mono">₹2,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-mma" value="MMA - 3 Months - ₹5000" data-amount="5000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">3 Months</span>
+          <span class="plan-price mono">₹5,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-mma" value="MMA - 6 Months - ₹9000" data-amount="9000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">6 Months</span>
+          <span class="plan-price mono">₹9,000</span>
+        </label>
+      </div>
+      <button class="btn btn-pkg btn-pkg-primary" data-select-pkg="MMA">Choose MMA</button>
+    </article>
+
+    <!-- BOXING -->
+    <article class="pkg-card reveal-on-scroll" data-pkg="Boxing">
+      <div class="pkg-top">
+        <span class="pkg-class mono">CLASS / 03</span>
+        <h3>Boxing</h3>
+        <p class="pkg-desc">Footwork, combinations and pad work built around real bout prep.</p>
+      </div>
+      <ul class="pkg-list">
+        <li>Technical boxing &amp; pad rounds</li>
+        <li>Bag work &amp; footwork drills</li>
+        <li>Full strength &amp; conditioning access</li>
+      </ul>
+      <div class="pkg-plans">
+        <label class="plan-opt">
+          <input type="radio" name="plan-boxing" value="Boxing - 1 Month - ₹2000" data-amount="2000" checked>
+          <span class="plan-radio"></span>
+          <span class="plan-label">1 Month</span>
+          <span class="plan-price mono">₹2,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-boxing" value="Boxing - 3 Months - ₹5000" data-amount="5000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">3 Months</span>
+          <span class="plan-price mono">₹5,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-boxing" value="Boxing - 6 Months - ₹9000" data-amount="9000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">6 Months</span>
+          <span class="plan-price mono">₹9,000</span>
+        </label>
+      </div>
+      <button class="btn btn-pkg" data-select-pkg="Boxing">Choose Boxing</button>
+    </article>
+
+    <!-- BJJ / GRAPPLING -->
+    <article class="pkg-card reveal-on-scroll" data-pkg="BJJ">
+      <div class="pkg-top">
+        <span class="pkg-class mono">CLASS / 04</span>
+        <h3>BJJ / Grappling</h3>
+        <p class="pkg-desc">Ground control, submissions and positional dominance - gi and no-gi.</p>
+      </div>
+      <ul class="pkg-list">
+        <li>Gi &amp; no-gi grappling technique</li>
+        <li>Live rolling (supervised)</li>
+        <li>Full strength &amp; conditioning access</li>
+      </ul>
+      <div class="pkg-plans">
+        <label class="plan-opt">
+          <input type="radio" name="plan-bjj" value="BJJ / Grappling - 1 Month - ₹2000" data-amount="2000" checked>
+          <span class="plan-radio"></span>
+          <span class="plan-label">1 Month</span>
+          <span class="plan-price mono">₹2,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-bjj" value="BJJ / Grappling - 3 Months - ₹5000" data-amount="5000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">3 Months</span>
+          <span class="plan-price mono">₹5,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-bjj" value="BJJ / Grappling - 6 Months - ₹9000" data-amount="9000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">6 Months</span>
+          <span class="plan-price mono">₹9,000</span>
+        </label>
+      </div>
+      <button class="btn btn-pkg" data-select-pkg="BJJ / Grappling">Choose BJJ</button>
+    </article>
+
+    <!-- WRESTLING -->
+    <article class="pkg-card reveal-on-scroll" data-pkg="Wrestling">
+      <div class="pkg-top">
+        <span class="pkg-class mono">CLASS / 05</span>
+        <h3>Wrestling</h3>
+        <p class="pkg-desc">Takedowns, control and the conditioning that holds up in the third round.</p>
+      </div>
+      <ul class="pkg-list">
+        <li>Takedown &amp; clinch technique</li>
+        <li>Live wrestling rounds (supervised)</li>
+        <li>Full strength &amp; conditioning access</li>
+      </ul>
+      <div class="pkg-plans">
+        <label class="plan-opt">
+          <input type="radio" name="plan-wrestling" value="Wrestling - 1 Month - ₹2000" data-amount="2000" checked>
+          <span class="plan-radio"></span>
+          <span class="plan-label">1 Month</span>
+          <span class="plan-price mono">₹2,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-wrestling" value="Wrestling - 3 Months - ₹5000" data-amount="5000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">3 Months</span>
+          <span class="plan-price mono">₹5,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-wrestling" value="Wrestling - 6 Months - ₹9000" data-amount="9000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">6 Months</span>
+          <span class="plan-price mono">₹9,000</span>
+        </label>
+      </div>
+      <button class="btn btn-pkg" data-select-pkg="Wrestling">Choose Wrestling</button>
+    </article>
+
+    <!-- KICKBOXING -->
+    <article class="pkg-card reveal-on-scroll" data-pkg="Kickboxing">
+      <div class="pkg-top">
+        <span class="pkg-class mono">CLASS / 06</span>
+        <h3>Kickboxing</h3>
+        <p class="pkg-desc">Strikes, kicks and knees - high-output rounds built for power and gas tank.</p>
+      </div>
+      <ul class="pkg-list">
+        <li>Striking &amp; kicking technique</li>
+        <li>Pad rounds &amp; bag conditioning</li>
+        <li>Full strength &amp; conditioning access</li>
+      </ul>
+      <div class="pkg-plans">
+        <label class="plan-opt">
+          <input type="radio" name="plan-kickboxing" value="Kickboxing - 1 Month - ₹2000" data-amount="2000" checked>
+          <span class="plan-radio"></span>
+          <span class="plan-label">1 Month</span>
+          <span class="plan-price mono">₹2,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-kickboxing" value="Kickboxing - 3 Months - ₹5000" data-amount="5000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">3 Months</span>
+          <span class="plan-price mono">₹5,000</span>
+        </label>
+        <label class="plan-opt">
+          <input type="radio" name="plan-kickboxing" value="Kickboxing - 6 Months - ₹9000" data-amount="9000">
+          <span class="plan-radio"></span>
+          <span class="plan-label">6 Months</span>
+          <span class="plan-price mono">₹9,000</span>
+        </label>
+      </div>
+      <button class="btn btn-pkg" data-select-pkg="Kickboxing">Choose Kickboxing</button>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= ROUND 05 - WEIGH IN (BOOKING) ================= -->
+<section class="round round-weighin" id="weighin">
+  <div class="round-head round-head-light">
+    <span class="round-tag mono">ROUND 05</span>
+    <h2 class="round-title">Weigh In</h2>
+    <p class="round-desc" id="weighinDesc">Book a free demo class, lock in a package, or - if you already train with us - pay your next month's fees.</p>
+  </div>
+
+  <div class="weighin-grid">
+    <form class="booking-form" id="bookingForm" novalidate>
+
+      <div class="toggle-row" role="tablist" aria-label="Booking type">
+        <button type="button" class="toggle-btn is-active" data-mode="demo" id="modeDemo">Free Demo</button>
+        <button type="button" class="toggle-btn" data-mode="pay" id="modePay">Buy a Package</button>
+        <button type="button" class="toggle-btn" data-mode="fees" id="modeFees">Pay Fees</button>
+      </div>
+
+      <!-- Existing-student field, shown only in Pay Fees mode -->
+      <div class="field mode-only mode-fees is-hidden" data-mode-field="fees">
+        <label for="fStudentId">Student ID <span class="opt">(or registered phone if unsure)</span></label>
+        <input type="text" id="fStudentId" name="studentId" placeholder="e.g. CFG-0142">
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="fName" id="fNameLabel">Full name</label>
+          <input type="text" id="fName" name="name" required placeholder="Your name">
+        </div>
+        <div class="field">
+          <label for="fPhone">Phone number</label>
+          <input type="tel" id="fPhone" name="phone" required placeholder="10-digit mobile">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="fEmail">Email</label>
+          <input type="email" id="fEmail" name="email" placeholder="you@example.com">
+        </div>
+        <div class="field mode-only mode-demo" data-mode-field="demo">
+          <label for="fDate">Preferred date</label>
+          <input type="date" id="fDate" name="date">
+        </div>
+      </div>
+
+      <!-- Time slots - demo bookings only -->
+      <div class="field mode-only mode-demo" data-mode-field="demo">
+        <label>Preferred time slot</label>
+        <div class="slot-grid" id="slotGrid">
+          <button type="button" class="slot-btn" data-slot="7:00 AM – 9:00 AM">7 – 9 AM</button>
+          <button type="button" class="slot-btn" data-slot="9:00 AM – 11:00 AM">9 – 11 AM</button>
+          <button type="button" class="slot-btn" data-slot="6:00 PM – 8:00 PM">6 – 8 PM</button>
+          <button type="button" class="slot-btn" data-slot="8:00 PM – 10:00 PM">8 – 10 PM</button>
+        </div>
+        <input type="hidden" id="fSlot" name="slot">
+      </div>
+
+      <div class="field">
+        <label for="fPackage" id="fPackageLabel">Package</label>
+        <select id="fPackage" name="package">
+          <option value="Only Gym - 1 Month - ₹1500">Only Gym - 1 Month - ₹1,500</option>
+          <option value="Only Gym - 3 Months - ₹4000">Only Gym - 3 Months - ₹4,000</option>
+          <option value="Only Gym - 6 Months - ₹7500">Only Gym - 6 Months - ₹7,500</option>
+          <option value="MMA - 1 Month - ₹2000" selected>MMA - 1 Month - ₹2,000</option>
+          <option value="MMA - 3 Months - ₹5000">MMA - 3 Months - ₹5,000</option>
+          <option value="MMA - 6 Months - ₹9000">MMA - 6 Months - ₹9,000</option>
+          <option value="Boxing - 1 Month - ₹2000">Boxing - 1 Month - ₹2,000</option>
+          <option value="Boxing - 3 Months - ₹5000">Boxing - 3 Months - ₹5,000</option>
+          <option value="Boxing - 6 Months - ₹9000">Boxing - 6 Months - ₹9,000</option>
+          <option value="BJJ / Grappling - 1 Month - ₹2000">BJJ / Grappling - 1 Month - ₹2,000</option>
+          <option value="BJJ / Grappling - 3 Months - ₹5000">BJJ / Grappling - 3 Months - ₹5,000</option>
+          <option value="BJJ / Grappling - 6 Months - ₹9000">BJJ / Grappling - 6 Months - ₹9,000</option>
+          <option value="Wrestling - 1 Month - ₹2000">Wrestling - 1 Month - ₹2,000</option>
+          <option value="Wrestling - 3 Months - ₹5000">Wrestling - 3 Months - ₹5,000</option>
+          <option value="Wrestling - 6 Months - ₹9000">Wrestling - 6 Months - ₹9,000</option>
+          <option value="Kickboxing - 1 Month - ₹2000">Kickboxing - 1 Month - ₹2,000</option>
+          <option value="Kickboxing - 3 Months - ₹5000">Kickboxing - 3 Months - ₹5,000</option>
+          <option value="Kickboxing - 6 Months - ₹9000">Kickboxing - 6 Months - ₹9,000</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="fMsg">Anything we should know? <span class="opt">(optional)</span></label>
+        <textarea id="fMsg" name="message" rows="3" placeholder="Prior experience, injuries, preferred timing…"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block" id="formSubmit">
+        <span id="formSubmitLabel">Book Free Demo</span>
+      </button>
+      <p class="form-note" id="formNote">By booking, you agree to a callback from our team to confirm timing. No payment is taken for demo bookings.</p>
+    </form>
+
+    <aside class="weighin-side">
+      <div class="side-card">
+        <h3 class="mono">Corner Info</h3>
+        <ul class="side-list">
+          <li><span>Hours</span><span>Mon–Sat · 5:30AM–11PM</span></li>
+          <li><span>Location</span><span>Campbell Road, Balaganj, Lucknow</span></li>
+          <li><span>Trial</span><span>First class is free</span></li>
+        </ul>
+      </div>
+      <div class="side-card side-card-accent">
+        <h3 class="mono">Direct Line</h3>
+        <p>Prefer to talk it through first?</p>
+        <a href="tel:+917309226247" class="side-link">+91 73092 26247</a>
+        <a href="https://wa.me/917309226247" class="side-link" target="_blank" rel="noopener">Message on WhatsApp →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= SUCCESS MODAL ================= -->
+<div class="modal-overlay" id="successModal" aria-hidden="true">
+  <div class="modal-box">
+    <div class="modal-bell" aria-hidden="true">
+      <svg viewBox="0 0 64 64" width="56" height="56"><path d="M32 6c-3 0-5 2-5 5v2c-9 2-14 9-14 19v10l-5 7h48l-5-7V32c0-10-5-17-14-19V11c0-3-2-5-5-5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M25 51a7 7 0 0 0 14 0" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+    </div>
+    <h3 id="modalTitle">You're on the books.</h3>
+    <p id="modalBody">We've got your details - our team will call you shortly to confirm your slot.</p>
+    <button class="btn btn-primary" id="modalClose">Done</button>
+  </div>
+</div>
+
+<!-- ================= IMAGE PREVIEW LIGHTBOX ================= -->
+<div class="lightbox-overlay" id="lightboxOverlay" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#8249;</button>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">&#8250;</button>
+  <figure class="lightbox-figure">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+<!-- ================= FOOTER - THE CORNER ================= -->
+<footer class="footer" id="corner">
+  <div class="footer-bell-row">
+    <span class="footer-bell mono">◐</span>
+    <span class="mono">END OF ROUND</span>
+    <span class="footer-bell mono">◐</span>
+  </div>
+
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="nav-brand-mark"><span class="mark-c">C</span><span class="mark-fg">FG</span></span>
+      <p>Combat Fitness Garage - Campbell Road Balaganj, Lucknow. Training fighters and everyday people since 2019.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="mono">Find Us</h4>
+      <a href="https://maps.app.goo.gl/j4M6yM2yE25ER2296" target="_blank" rel="noopener">Location on Google Maps →</a>
+      <a href="#top">Campbell Road Balaganj, Lucknow</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="mono">Follow</h4>
+      <a href="https://instagram.com/c_f_g_mma" target="_blank" rel="noopener">Instagram →</a>
+      <a href="https://wa.me/917309226247" target="_blank" rel="noopener">WhatsApp →</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="mono">Owner / Head Coach</h4>
+      <a href="tel:+917309226247">+91 73092 26247</a>
+      <a href="mailto:coach@combatfitnessgarage.in">coach@combatfitnessgarage.in</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom mono">
+    <span>© <span id="year"></span> Combat Fitness Garage</span>
+    <span>Built in the garage, not a boardroom.</span>
+    <!-- TODO: swap these two hrefs for your real LinkedIn / portfolio URLs -->
+    <span class="footer-credit">Site by <a href="https://de-sparsh.onrender.com/" target="_blank" rel="noopener">Sparsh</a></span>
+  </div>
+</footer>
+
+<!-- Cashfree Drop-in checkout SDK - see CASHFREE_CONFIG in script.js -->
+<script src="https://sdk.cashfree.com/js/v3/cashfree.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
